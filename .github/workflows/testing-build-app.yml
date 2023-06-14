@@ -12,6 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          # 必要に応じて pnpm のバージョンを変更してください
+          version: 8.6.2
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
