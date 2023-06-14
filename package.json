@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "run-p dev:*",
-    "dev:next": "next dev --turbo",
+    "dev:next": "next dev",
     "dev:path": "pnpm pathpida -w",
     "build": "pnpm pathpida && next build",
     "start": "next start",
@@ -19,9 +19,7 @@
     "format": "pnpm prettier --write",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm",
-    "test": "vitest",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "test": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
