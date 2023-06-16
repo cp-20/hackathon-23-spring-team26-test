@@ -5,7 +5,7 @@ export default function ClickCounter() {
   return (
     <div>
       <div>回数： {count}</div>
-      <button onClick={() => setCount(count + 1)}>クリック！</button>
+      <button onClick={() => setCount((count) => count + 1)}>クリック！</button>
       <button onClick={() => setCount(0)}>リセット！</button>
     </div>
   );

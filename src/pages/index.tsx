@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
-import ClickCounter from 'src/pages/components/ClickCounter';
+import ClickCounter from '@/components/ClickCounter';
 
 // eslint-disable-next-line new-cap
 const inter = Inter({ subsets: ['latin'] });
