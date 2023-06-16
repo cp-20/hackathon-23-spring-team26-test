@@ -17,6 +17,7 @@ export default function Home() {
       <main className={` ${inter.className}`}>
         <div>
           <ClickCounter />
+          <ClickCounter />
         </div>
       </main>
     </>
