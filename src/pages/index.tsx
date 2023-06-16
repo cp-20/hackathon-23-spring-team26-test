@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import ClickCounter from '@/components/ClickCounter';
+import ItemList from '@/components/ItemList';
 
 // eslint-disable-next-line new-cap
 const inter = Inter({ subsets: ['latin'] });
@@ -18,6 +19,7 @@ export default function Home() {
         <div>
           <ClickCounter />
           <ClickCounter />
+          <ItemList />
         </div>
       </main>
     </>
